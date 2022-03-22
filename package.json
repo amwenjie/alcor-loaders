@@ -1,0 +1,31 @@
+{
+  "author": "wenjie",
+  "bugs": {
+    "url": "https://github.com/amwenjie/alcor-loaders/issues"
+  },
+  "dependencies": {
+    "colorette": "~2.0.16",
+    "fs-extra": "~10.0.1"
+  },
+  "description": "webpack loader collection for alcor",
+  "devDependencies": {
+    "@types/fs-extra": "~9.0.13"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "keywords": [
+    "alcor"
+  ],
+  "license": "MIT",
+  "name": "alcor-loaders",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amwenjie/alcor-loaders.git"
+  },
+  "scripts": {
+    "build": "tsc -p ./src"
+  },
+  "type": "commonjs",
+  "version": "0.0.2"
+}

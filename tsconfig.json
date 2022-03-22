@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "traceResolution": false,
+        "importHelpers": true,
+        "allowJs": false,
+        "baseUrl": "src",
+        "outDir": "../dist",
+        "pretty": false,
+        "module": "commonjs",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "declaration": true,
+        "sourceMap": false,
+        "noImplicitAny": false,
+        "noFallthroughCasesInSwitch": false,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "typeRoots": [
+            "node_modules/@types",
+            "typings"
+        ]
+    }
+}
